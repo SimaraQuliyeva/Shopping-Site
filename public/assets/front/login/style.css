@@ -1,0 +1,165 @@
+body {
+    overflow: hidden;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.login .left-side {
+
+}
+
+.login .left-side .title {
+    color: #000;
+    font-family: Josefin Sans, serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    width: 399px;
+    height: 36px;
+    margin: 0 84px 16px 0;
+}
+
+.login .left-side .desc {
+    color: #060606;
+    font-family: DM Sans, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 106px 25px 0;
+}
+
+.login .left-side .not-signed {
+    color: #1A1A1A;
+    font-family: DM Sans, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login .left-side .not-signed a {
+    color: #060606;
+    font-family: DM Sans, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #FF00B8;
+}
+
+.login .right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.login .right-side .email,
+.login .right-side .password {
+    width: 430px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #767676;
+    padding: 0 0 12px 0;
+    outline: none;
+
+    color: #767676;
+    font-family: DM Sans, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login .right-side .email {
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+
+.login .right-side input::placeholder {
+    color: #767676;
+    font-family: DM Sans, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.checkbox-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 65px;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+}
+
+.keep-me-logged {
+    color: #1A1A1A;
+    font-family: DM Sans, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 8px;
+    user-select: none;
+}
+
+/*nav a.active {*/
+/*    color: #767676;*/
+/*}*/
+
+button {
+    width: 430px;
+    height: 43px;
+    border: 1px solid #060606;
+    background: #FFF;
+    color: #060606;
+    /* Body Medium */
+    font-family: DM Sans, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    cursor: pointer;
+    margin-bottom: 33px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.forgot-password a{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: DM Sans, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*width: 115px;*/
+    border-bottom: 1px solid #FF00B8;
+}
+
+.error-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    color: #000;
+    font-family: DM Sans, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

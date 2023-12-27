@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bg {
+    padding: 39px 39px 45px 39px;
+    background: #F5F5F5;
+    width: 370px;
+}
+
+.right-card {
+    margin-left: 57px;
+}
+
+.right-card .right-title {
+    color: #060606;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 16px;
+}
+
+.right-card .result .result-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 29px;
+}
+
+.right-card .result .result-title h2 {
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right-card .all-sub {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 27px;
+}
+
+.right-card .all-sub .month-sub,
+.right-card .all-sub .year-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-card .all-sub .year-sub {
+    margin-top: 24px;
+    margin-bottom: 27px;
+}
+
+.right-card .all-sub .month-sub p,
+.right-card .all-sub .year-sub p {
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.total p {
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.total-amount {
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.left-card h1{
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 39px;
+}
+
+.left-card .order {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #CCCCCC;
+    width: 483px;
+    padding-bottom: 48px;
+}
+
+.left-card .order-num-section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.left-card .order-num-section p,
+.order p{
+    color: #767676;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.left-card .order-num-section .num {
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 3px;
+}
+
+.left-card h2 {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    color:  #060606;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left-card p {
+    margin-bottom: 4px;
+    color: #767676;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+

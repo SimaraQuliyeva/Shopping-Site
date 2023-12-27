@@ -1,0 +1,122 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-card {
+    width: 546px;
+    margin-right: 60px;
+}
+
+.left-card h2 {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    height: 49px;
+}
+
+.left-card .year-s,
+.left-card .month-s {
+    width: 500px;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 39px 0;
+}
+
+.scroll-product {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    overflow: scroll;
+    padding: 0 20px 20px 0;
+}
+
+
+.desc {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 275px;
+}
+
+.amount {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.x-icon, .x-icon img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-card {
+    width: 372px;
+}
+
+.right-card h2{
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 48px;
+}
+
+.result {
+    /*height: 188px;*/
+    background: #F4F4F4;
+    padding: 39px 39px 43px 39px;
+}
+.result .subtotal {
+    margin-bottom: 53px;
+}
+
+.result .subtotal, .result .total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.result .subtotal p, .result .total p{
+    color: #000;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right-card button {
+    margin-top: 39px;
+    border: 1px solid #060606;
+    width: 372px;
+    height: 43px;
+    background: #fff;
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    cursor: pointer;
+}
+.removebutton{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}

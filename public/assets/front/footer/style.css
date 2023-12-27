@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,700;1,100;1,200;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+
+    /*position: relative;*/
+}
+footer {
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin-top: 150px;*/
+/*    !*margin-bottom: 84px;*!*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-desc {
+    color: #060606;
+    font-family: DM Sans, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.copyright {
+    color: #767676;
+    margin: 30px 21px 0 21px;
+    /* Body Medium */
+    font-family: DM Sans, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.copyright a {
+    color: #060606;
+    /* Body Medium */
+    font-family: DM Sans, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.social-icons .socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.social-icons .socials li {
+    margin: 0 16px;
+}
+
+.social-icons .socials li a i {
+    display: flex;
+}
+
+.social-icons .socials li a i {
+    font-size: 20px;
+    align-items: center;
+    color: #060606;
+}
+
+.social-icons .socials li a i {
+    transition: transform 0.3s ease-out;
+}
+
+.social-icons .socials li a i:hover {
+    transform: scale(1.07);
+}
+
+/*.go-up {*/
+/*    position: fixed;*/
+/*    right: 50px;*/
+/*    bottom: 74px;*/
+/*}*/
+
+
+.go-up {
+    position: fixed;
+    bottom: -100px; /* Düğmeyi sayfanın dışına sakla */
+    right: 50px;
+    transition: bottom 0.5s ease-in-out; /* Altını çıkartma efekti için geçiş ekleyin */
+}
+
+.go-up.active {
+
+    bottom: 74px; /* Düğmeyi sayfanın altına getirin */
+    right: 50px;
+}
+
+.go-up a img {
+    width: 40px; /* Düğme boyutu */
+    height: 40px;
+    transition: transform 0.2s; /* Hover efekti için geçiş ekleyin */
+}
+
+.go-up a img:hover {
+    transform: scale(1.1); /* Hover efekti */
+}

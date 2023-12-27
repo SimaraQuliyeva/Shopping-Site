@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,700;1,100;1,200;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/*.nav {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+nav {
+    width: 1239px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: DM Sans, serif;
+    margin: 64px 100px 128px;
+}
+
+.logo .sh {
+    color: #060606;
+    font-family: Josefin Sans, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.45px;
+}
+
+.logo .een {
+    color: #060606;
+    font-family: Josefin Sans, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: -2.45px;
+    margin-left: -4px;
+}
+
+.links ul {
+    display: flex;
+    align-items: center;
+    max-height: 26px;
+}
+
+.links ul li {
+    list-style: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 9px 32px;
+}
+
+.links ul li a {
+    color: #060606;
+    font-family: DM Sans, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.icons {
+    display: flex;
+}
+
+.icons div {
+    margin: 14px 8px 8px;
+}
+
+.icons a {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(252, 252, 252, 0.95);
+    z-index: 100;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-nav {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    width: 1239px;
+    margin-bottom: 92px;
+}
+
+.modal-nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.modal-nav .logo .een {
+    margin-left: 0.1px;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.modal-search {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #060606;
+    width: 700px;
+    align-items: center;
+}
+.modal-search input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    width: 100%;
+}
+
+.modal-search .submit img {
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.modal-search button {
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+

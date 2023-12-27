@@ -1,0 +1,237 @@
+#shop-active {
+    color: #767676;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.horizontal-photos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.horizontal-photos img {
+    margin: 0 24px 24px 0;
+    width: 102px;
+    height: 107px;
+}
+
+
+.left-side .main-photo {
+    width: 550px;
+    height: 500px;
+}
+
+.main-photo img {
+    width: 100%;
+    height: 100%;
+    /*object-fit: scale-down;*/
+}
+
+
+.right-side {
+    margin-left: 50px;
+    width: 517px;
+}
+
+.right-side .title {
+    color: #060606;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.right-side .price {
+    margin: 16px 0 65px 0;
+    color: #060606;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.right-side .review {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+.right-side .review .stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-side .review .stars img {
+    margin-right: 8.62px;
+}
+
+.right-side .review .review-status {
+    margin-left: calc(15.54px - 8.62px);
+    color: #767676;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right-side .product-desc {
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 517px;
+    margin-bottom: 30px;
+}
+
+.custom-select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #767676;
+    margin-bottom: 80px;
+    padding-bottom: 12px;
+}
+
+.custom-select label {
+    color: #767676;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.custom-select select {
+    color: #767676;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.button-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.button-side input {
+    width: 80px;
+    height: 43px;
+    text-align: center;
+    border: 1px solid #4D4D4D;
+    color: #767676;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button-side button {
+    width: 421px;
+    height: 43px;
+    border: 1px solid #060606;
+    background: #fff;
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+}
+
+.categories h5 {
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.categories p {
+    margin-left: 10px;
+    color: #767676;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.bottom-side {
+    margin-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-side .more-option {
+    display: flex;
+    flex-direction: row;
+    width: 1241px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.bottom-side .more-option a {
+    color: #767676;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 34px;
+    margin-right: 96px;
+}
+
+.bottom-side .more-option a.active {
+    color: #060606;
+    border-bottom: 1px solid #060606;
+}
+
+.bottom-side .desc-text {
+    width: 1241px;
+    color: #060606;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 38px;
+}
